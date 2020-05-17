@@ -21,6 +21,7 @@
 		32293A1123830B8C005B83F4 /* JokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32293A1023830B8C005B83F4 /* JokeController.swift */; };
 		324E83C423E148770075617C /* DarkSkyWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E83C323E148770075617C /* DarkSkyWeatherModel.swift */; };
 		324E83C623E14CB70075617C /* DarkSkyWeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E83C523E14CB70075617C /* DarkSkyWeatherController.swift */; };
+		3288F0C62470F82B00C9CA0E /* Fowl_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3288F0C52470F82B00C9CA0E /* Fowl_WeatherTests.swift */; };
 		3291787323E20B080043FCF3 /* DarkSkyWeatherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3291787223E20B080043FCF3 /* DarkSkyWeatherType.swift */; };
 		3291787523E25ADC0043FCF3 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3291787423E25ADC0043FCF3 /* WeatherDetailViewController.swift */; };
 		3291787723E25C400043FCF3 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3291787623E25C400043FCF3 /* DateFormatter+Extension.swift */; };
@@ -31,6 +32,16 @@
 		38C8699923849921004428EA /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C8699823849921004428EA /* Notification+Extension.swift */; };
 		B9535BFB47EB4E945B523333 /* Pods_Fowl_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7777F38B02227B1065740C5 /* Pods_Fowl_Weather.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3288F0C82470F82B00C9CA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322939E723830ADD005B83F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322939EE23830ADD005B83F4;
+			remoteInfo = "Fowl Weather";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06B896D4CBCC5BBC7104EC29 /* Pods-Fowl Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fowl Weather.debug.xcconfig"; path = "Target Support Files/Pods-Fowl Weather/Pods-Fowl Weather.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +63,9 @@
 		32293A1023830B8C005B83F4 /* JokeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeController.swift; sourceTree = "<group>"; };
 		324E83C323E148770075617C /* DarkSkyWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyWeatherModel.swift; sourceTree = "<group>"; };
 		324E83C523E14CB70075617C /* DarkSkyWeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyWeatherController.swift; sourceTree = "<group>"; };
+		3288F0C32470F82B00C9CA0E /* Fowl WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fowl WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3288F0C52470F82B00C9CA0E /* Fowl_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fowl_WeatherTests.swift; sourceTree = "<group>"; };
+		3288F0C72470F82B00C9CA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3291787223E20B080043FCF3 /* DarkSkyWeatherType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyWeatherType.swift; sourceTree = "<group>"; };
 		3291787423E25ADC0043FCF3 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
 		3291787623E25C400043FCF3 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
@@ -74,6 +88,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3288F0C02470F82B00C9CA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				322939F123830ADD005B83F4 /* Fowl Weather */,
+				3288F0C42470F82B00C9CA0E /* Fowl WeatherTests */,
 				322939F023830ADD005B83F4 /* Products */,
 				67B6D86510F65DC75610FC1A /* Pods */,
 				C8A8D567F7C603653A6786E8 /* Frameworks */,
@@ -91,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				322939EF23830ADD005B83F4 /* Fowl Weather.app */,
+				3288F0C32470F82B00C9CA0E /* Fowl WeatherTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +191,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		3288F0C42470F82B00C9CA0E /* Fowl WeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				3288F0C52470F82B00C9CA0E /* Fowl_WeatherTests.swift */,
+				3288F0C72470F82B00C9CA0E /* Info.plist */,
+			);
+			path = "Fowl WeatherTests";
+			sourceTree = "<group>";
+		};
 		38C8699A2384993B004428EA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,18 +255,40 @@
 			productReference = 322939EF23830ADD005B83F4 /* Fowl Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3288F0C22470F82B00C9CA0E /* Fowl WeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3288F0CC2470F82B00C9CA0E /* Build configuration list for PBXNativeTarget "Fowl WeatherTests" */;
+			buildPhases = (
+				3288F0BF2470F82B00C9CA0E /* Sources */,
+				3288F0C02470F82B00C9CA0E /* Frameworks */,
+				3288F0C12470F82B00C9CA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3288F0C92470F82B00C9CA0E /* PBXTargetDependency */,
+			);
+			name = "Fowl WeatherTests";
+			productName = "Fowl WeatherTests";
+			productReference = 3288F0C32470F82B00C9CA0E /* Fowl WeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		322939E723830ADD005B83F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "jake connerly";
 				TargetAttributes = {
 					322939EE23830ADD005B83F4 = {
 						CreatedOnToolsVersion = 11.2;
+					};
+					3288F0C22470F82B00C9CA0E = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 322939EE23830ADD005B83F4;
 					};
 				};
 			};
@@ -252,6 +306,7 @@
 			projectRoot = "";
 			targets = (
 				322939EE23830ADD005B83F4 /* Fowl Weather */,
+				3288F0C22470F82B00C9CA0E /* Fowl WeatherTests */,
 			);
 		};
 /* End PBXProject section */
@@ -264,6 +319,13 @@
 				322939FF23830AE1005B83F4 /* LaunchScreen.storyboard in Resources */,
 				322939FC23830AE1005B83F4 /* Assets.xcassets in Resources */,
 				322939FA23830ADD005B83F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3288F0C12470F82B00C9CA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +400,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3288F0BF2470F82B00C9CA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3288F0C62470F82B00C9CA0E /* Fowl_WeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3288F0C92470F82B00C9CA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322939EE23830ADD005B83F4 /* Fowl Weather */;
+			targetProxy = 3288F0C82470F82B00C9CA0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		322939F823830ADD005B83F4 /* Main.storyboard */ = {
@@ -516,6 +594,48 @@
 			};
 			name = Release;
 		};
+		3288F0CA2470F82B00C9CA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM84C6XKT7;
+				INFOPLIST_FILE = "Fowl WeatherTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakeconnerly.Fowl-WeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fowl Weather.app/Fowl Weather";
+			};
+			name = Debug;
+		};
+		3288F0CB2470F82B00C9CA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM84C6XKT7;
+				INFOPLIST_FILE = "Fowl WeatherTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakeconnerly.Fowl-WeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fowl Weather.app/Fowl Weather";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -533,6 +653,15 @@
 			buildConfigurations = (
 				32293A0423830AE1005B83F4 /* Debug */,
 				32293A0523830AE1005B83F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3288F0CC2470F82B00C9CA0E /* Build configuration list for PBXNativeTarget "Fowl WeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3288F0CA2470F82B00C9CA0E /* Debug */,
+				3288F0CB2470F82B00C9CA0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
